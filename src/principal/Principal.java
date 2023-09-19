@@ -19,11 +19,7 @@ public class Principal {
 			System.out.println("------------MENU------------\n"
 					+ "1. Agregar producto\n"
 					+ "2. Mostrar productos\n"
-					+ "3. Eliminiar producto\n"
-					+ "4. Actualizar producto\n"
-					+ "5. Agregar proveedor\n"
-					+ "6. Eliminar proveedor\n"
-					+ "7. Actualizar proveedor\n"
+					+ "3. Agregar proveedor\n"
 					+ "0. Salir\n");
 		
 			op = sc.nextInt();
@@ -52,7 +48,7 @@ public class Principal {
 				case 2:
 					inventario.mostrarProductos();
 					break;
-				case 5:
+				case 3:
 					System.out.println("Ingrese codigo del proveedor: ");
 					int codigoPro = sc.nextInt();
 					sc.nextLine();
